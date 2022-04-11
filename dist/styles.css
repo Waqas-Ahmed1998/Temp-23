@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -721,9 +725,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(209 36 36 / var(--tw-text-opacity));
 }
 
-.text-\[\#f9f4f4\] {
+.text-\[\#060606\] {
   --tw-text-opacity: 1;
-  color: rgb(249 244 244 / var(--tw-text-opacity));
+  color: rgb(6 6 6 / var(--tw-text-opacity));
 }
 
 .text-\[\#ffffff\] {
@@ -731,9 +735,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#060606\] {
+.text-\[\#2d2d2d\] {
   --tw-text-opacity: 1;
-  color: rgb(6 6 6 / var(--tw-text-opacity));
+  color: rgb(45 45 45 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
@@ -857,6 +861,10 @@ font-family: 'Vazirmatn', sans-serif;*/
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:h-screen {
